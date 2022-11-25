@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Suite,Firefox 104.0,,,2022-11-18 09:04:22,2022-11-18 09:04:49,27.124s,PASSED
+,,,,,,,
+Test Cases/Demo Test Cases/ManualDemo,Firefox 104.0,,,2022-11-18 09:04:22,2022-11-18 09:04:49,26.770s,PASSED
+"openBrowser("""")",Firefox 104.0,,,2022-11-18 09:04:23,2022-11-18 09:04:28,5.025s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 104.0,,,2022-11-18 09:04:28,2022-11-18 09:04:39,11.414s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 104.0,,,2022-11-18 09:04:39,2022-11-18 09:04:40,0.715s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 104.0,,,2022-11-18 09:04:40,2022-11-18 09:04:40,0.238s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Firefox 104.0,,,2022-11-18 09:04:40,2022-11-18 09:04:42,1.813s,PASSED
+delay(5),Firefox 104.0,,,2022-11-18 09:04:42,2022-11-18 09:04:47,5.040s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Firefox 104.0,,,2022-11-18 09:04:47,2022-11-18 09:04:47,0.326s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_OrangeHRM/p_Time at Work""), ""Time at Work"")",Firefox 104.0,,,2022-11-18 09:04:47,2022-11-18 09:04:47,0.139s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/p_Punched Out""), 0)",Firefox 104.0,,,2022-11-18 09:04:47,2022-11-18 09:04:48,0.108s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_OrangeHRM/p_Punched Out""), 0)",Firefox 104.0,,,2022-11-18 09:04:48,2022-11-18 09:04:48,0.119s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-11-18 09:04:48,2022-11-18 09:04:49,1.411s,PASSED

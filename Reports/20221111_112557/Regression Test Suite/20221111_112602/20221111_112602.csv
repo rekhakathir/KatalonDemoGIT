@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Suite,Firefox 104.0,,,2022-11-11 11:26:29,2022-11-11 11:27:11,42.708s,PASSED
+,,,,,,,
+Test Cases/Demo Test Cases/ManualDemo,Firefox 104.0,,,2022-11-11 11:26:29,2022-11-11 11:26:52,22.704s,PASSED
+"openBrowser("""")",Firefox 104.0,,,2022-11-11 11:26:30,2022-11-11 11:26:39,8.304s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 104.0,,,2022-11-11 11:26:39,2022-11-11 11:26:44,5.634s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 104.0,,,2022-11-11 11:26:44,2022-11-11 11:26:46,1.493s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 104.0,,,2022-11-11 11:26:46,2022-11-11 11:26:46,0.545s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Firefox 104.0,,,2022-11-11 11:26:46,2022-11-11 11:26:48,1.974s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Firefox 104.0,,,2022-11-11 11:26:48,2022-11-11 11:26:51,2.432s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-11-11 11:26:51,2022-11-11 11:26:52,1.124s,PASSED
+,,,,,,,
+Test Cases/Demo Test Cases/ScriptDemo,Firefox 104.0,,,2022-11-11 11:26:52,2022-11-11 11:27:11,19.502s,PASSED
+"openBrowser("""")",Firefox 104.0,,,2022-11-11 11:26:52,2022-11-11 11:26:56,4.039s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Firefox 104.0,,,2022-11-11 11:26:56,2022-11-11 11:27:00,4.109s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Firefox 104.0,,,2022-11-11 11:27:00,2022-11-11 11:27:02,1.310s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""admin123"")",Firefox 104.0,,,2022-11-11 11:27:02,2022-11-11 11:27:02,0.739s,PASSED
+"verifyTextPresent(""Login"", false)",Firefox 104.0,,,2022-11-11 11:27:02,2022-11-11 11:27:03,0.546s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Firefox 104.0,,,2022-11-11 11:27:03,2022-11-11 11:27:05,1.640s,PASSED
+delay(5),Firefox 104.0,,,2022-11-11 11:27:05,2022-11-11 11:27:10,5.029s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Firefox 104.0,,,2022-11-11 11:27:10,2022-11-11 11:27:10,0.578s,PASSED
+closeBrowser(),Firefox 104.0,,,2022-11-11 11:27:10,2022-11-11 11:27:11,1.090s,PASSED
