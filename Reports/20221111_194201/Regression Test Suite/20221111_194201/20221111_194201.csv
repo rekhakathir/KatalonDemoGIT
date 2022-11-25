@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Suite,Chrome 107.0.0.0,,,2022-11-11 19:42:11,2022-11-11 19:42:40,28.819s,FAILED
+,,,,,,,
+Test Cases/Demo Test Cases/ManualDemo,Chrome 107.0.0.0,,,2022-11-11 19:42:25,2022-11-11 19:42:40,14.499s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-11 19:42:25,2022-11-11 19:42:29,3.480s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 107.0.0.0,,,2022-11-11 19:42:29,2022-11-11 19:42:35,6.189s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 107.0.0.0,,,2022-11-11 19:42:35,2022-11-11 19:42:37,1.653s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 107.0.0.0,,,2022-11-11 19:42:37,2022-11-11 19:42:37,0.596s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Chrome 107.0.0.0,,,2022-11-11 19:42:37,2022-11-11 19:42:39,1.683s,PASSED
+"verifyTextPresent(""Dashboard1"", false)",Chrome 107.0.0.0,,,2022-11-11 19:42:39,2022-11-11 19:42:40,0.877s,FAILED

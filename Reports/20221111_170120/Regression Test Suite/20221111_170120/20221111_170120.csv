@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Test Suite,Chrome 107.0.0.0,,,2022-11-11 17:01:30,2022-11-11 17:02:49,1m - 18.979s,FAILED
+,,,,,,,
+Test Cases/Demo Test Cases/ManualDemo,Chrome 107.0.0.0,,,2022-11-11 17:02:18,2022-11-11 17:02:33,14.895s,FAILED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-11 17:02:18,2022-11-11 17:02:21,2.809s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 107.0.0.0,,,2022-11-11 17:02:21,2022-11-11 17:02:29,7.964s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 107.0.0.0,,,2022-11-11 17:02:29,2022-11-11 17:02:31,1.561s,PASSED
+"setEncryptedText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Chrome 107.0.0.0,,,2022-11-11 17:02:31,2022-11-11 17:02:31,0.475s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Chrome 107.0.0.0,,,2022-11-11 17:02:31,2022-11-11 17:02:32,0.380s,PASSED
+"verifyTextPresent(""Dashboard1"", false)",Chrome 107.0.0.0,,,2022-11-11 17:02:32,2022-11-11 17:02:33,1.681s,FAILED
+,,,,,,,
+Test Cases/Demo Test Cases/ScriptDemo,Chrome 107.0.0.0,,,2022-11-11 17:02:33,2022-11-11 17:02:49,15.945s,PASSED
+"openBrowser("""")",Chrome 107.0.0.0,,,2022-11-11 17:02:34,2022-11-11 17:02:36,2.586s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 107.0.0.0,,,2022-11-11 17:02:36,2022-11-11 17:02:39,3.221s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Username_username""), ""Admin"")",Chrome 107.0.0.0,,,2022-11-11 17:02:39,2022-11-11 17:02:41,1.506s,PASSED
+"setText(findTestObject(""Page_OrangeHRM/input_Password_password""), ""admin123"")",Chrome 107.0.0.0,,,2022-11-11 17:02:41,2022-11-11 17:02:42,0.912s,PASSED
+"verifyTextPresent(""Login"", false)",Chrome 107.0.0.0,,,2022-11-11 17:02:42,2022-11-11 17:02:42,0.311s,PASSED
+"click(findTestObject(""Page_OrangeHRM/button_Login""))",Chrome 107.0.0.0,,,2022-11-11 17:02:42,2022-11-11 17:02:43,0.373s,PASSED
+delay(5),Chrome 107.0.0.0,,,2022-11-11 17:02:43,2022-11-11 17:02:48,5.030s,PASSED
+"verifyTextPresent(""Dashboard"", false)",Chrome 107.0.0.0,,,2022-11-11 17:02:48,2022-11-11 17:02:48,0.384s,PASSED
+closeBrowser(),Chrome 107.0.0.0,,,2022-11-11 17:02:48,2022-11-11 17:02:49,1.264s,PASSED
